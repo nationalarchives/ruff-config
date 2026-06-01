@@ -1,0 +1,42 @@
+[project]
+name = "tna-ruff-config"
+version = "0.1.0"
+requires-python = ">=3.10"
+authors = [
+  {name = "Andrew Hosgood", email = "andrew.hosgood@nationalarchives.gov.uk"},
+]
+description = "The National Archives global Ruff config"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENCE"]
+keywords = ["ruff", "config", "the national archives", "tna"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/tna-ruff-config/"
+Documentation = "https://nationalarchives.github.io/ruff-config/"
+Repository = "https://github.com/nationalarchives/ruff-config"
+"Bug Tracker" = "https://github.com/nationalarchives/ruff-config/issues"
+
+[tool.poetry]
+include = ["config"]
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+ruff = "^0.15"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
