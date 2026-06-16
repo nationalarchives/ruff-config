@@ -6,6 +6,8 @@
 [![PyPi version](https://img.shields.io/pypi/v/tna-ruff-config?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/tna-ruff-config/)
 [![Licence](https://img.shields.io/github/license/nationalarchives/ruff-config?style=flat-square)](https://github.com/nationalarchives/ruff-config/blob/main/LICENCE)
 
+These configurations are included in the [`tna-python-dev` Docker image](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev#format) as part of the `format` command.
+
 Two Ruff configurations are available:
 
 - [`ruff.toml`](#standard-configuration) - a general purpose Ruff configuration
