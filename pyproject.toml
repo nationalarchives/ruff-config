@@ -1,6 +1,6 @@
 [project]
 name = "tna-ruff-config"
-version = "0.1.2"
+version = "0.2.0"
 requires-python = ">=3.10"
 authors = [
   {name = "Andrew Hosgood", email = "andrew.hosgood@nationalarchives.gov.uk"},
@@ -35,7 +35,7 @@ include = ["config"]
 optional = true
 
 [tool.poetry.group.test.dependencies]
-ruff = "^0.15"
+ruff = "^0.16"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
